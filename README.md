@@ -26,38 +26,47 @@ Make array-like list.
 
 #### Constructors
  - `ListArray<T>()`
+
 Make empty ListArray.
 ---
  - `ListArray<T>(T0,T1,T2...Tn)`
+
 Make ListArray with T0 - Tn.
 
 #### Properties
 (\* = Readonly)
 
  - \*`Count`
+
 Return length of ListArray.
 ---
  - \*`Length`
+
 Return length of ListArray.
 ---
  - `Item[Int32]`
+
 Return content of ListArray.
 
 #### Methods
  - `Add(T)`
  - Void
+
 Add data to ListArray.
 ---
  - `Remove(Int32)`
  - Void
+
 Delete data from ListArray.
 ---
  - `ToArray()`
  - `T[]`
+
 Convert ListArray to Array.
 ---
  - `ToList()`
  - `List<T>`
+
 Convert ListArray to List.
 
 Sample:
