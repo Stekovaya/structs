@@ -25,6 +25,7 @@ Structs: Array
 Make array-like list.
 
 #### Constructors
+----
  - `ListArray<T>()`
 
 Make empty ListArray.
@@ -36,6 +37,7 @@ Make empty ListArray.
 Make ListArray with T0 - Tn.
 
 #### Properties
+----
 (\* = Readonly)
 
  - \*`Count`
@@ -55,6 +57,7 @@ Return length of ListArray.
 Return content of ListArray.
 
 #### Methods
+----
  - `Add(T)`
  - Void
 
