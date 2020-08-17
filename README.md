@@ -84,7 +84,10 @@ Convert ListArray to Array.
 
 Convert ListArray to List.
 
-Sample:
+#### Sample
+
+----
+
 ```cs
 using System;
 using StructCollection.Array;
