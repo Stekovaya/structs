@@ -28,7 +28,9 @@ Make array-like list.
  - `ListArray<T>()`
 
 Make empty ListArray.
+
 ---
+
  - `ListArray<T>(T0,T1,T2...Tn)`
 
 Make ListArray with T0 - Tn.
@@ -39,11 +41,15 @@ Make ListArray with T0 - Tn.
  - \*`Count`
 
 Return length of ListArray.
+
 ---
+
  - \*`Length`
 
 Return length of ListArray.
+
 ---
+
  - `Item[Int32]`
 
 Return content of ListArray.
@@ -53,17 +59,23 @@ Return content of ListArray.
  - Void
 
 Add data to ListArray.
+
 ---
+
  - `Remove(Int32)`
  - Void
 
 Delete data from ListArray.
+
 ---
+
  - `ToArray()`
  - `T[]`
 
 Convert ListArray to Array.
+
 ---
+
  - `ToList()`
  - `List<T>`
 
